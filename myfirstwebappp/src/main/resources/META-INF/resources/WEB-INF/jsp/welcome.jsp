@@ -1,10 +1,6 @@
-<html>
-<head>
-    <title>JSP Welcome Page</title>
-</head>
-<body>
+<%@include file="common/header.jspf"%>
+<%@include file="common/navigation.jspf"%>
 <div class="container">
-<h1>JSP Welcome ${name}</h1>
+<h1>Welcome ${name}</h1>
 <div><a href="list-todos">Manage</a> Your todos</div></div>
-</body>
-</html>
+<%@ include file="common/footer.jspf"%>
